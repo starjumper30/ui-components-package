@@ -1,0 +1,13 @@
+{
+  "main": "../bundles/ui-components-navigation.umd.js",
+  "module": "../fesm5/ui-components-navigation.js",
+  "es2015": "../fesm2015/ui-components-navigation.js",
+  "esm5": "../esm5/navigation/ui-components-navigation.js",
+  "esm2015": "../esm2015/navigation/ui-components-navigation.js",
+  "fesm5": "../fesm5/ui-components-navigation.js",
+  "fesm2015": "../fesm2015/ui-components-navigation.js",
+  "typings": "ui-components-navigation.d.ts",
+  "metadata": "ui-components-navigation.metadata.json",
+  "sideEffects": false,
+  "name": "ui-components/navigation"
+}

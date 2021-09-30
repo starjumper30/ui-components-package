@@ -1,0 +1,13 @@
+{
+  "main": "../bundles/ui-components-form-components.umd.js",
+  "module": "../fesm5/ui-components-form-components.js",
+  "es2015": "../fesm2015/ui-components-form-components.js",
+  "esm5": "../esm5/form-components/ui-components-form-components.js",
+  "esm2015": "../esm2015/form-components/ui-components-form-components.js",
+  "fesm5": "../fesm5/ui-components-form-components.js",
+  "fesm2015": "../fesm2015/ui-components-form-components.js",
+  "typings": "ui-components-form-components.d.ts",
+  "metadata": "ui-components-form-components.metadata.json",
+  "sideEffects": false,
+  "name": "ui-components/form-components"
+}
