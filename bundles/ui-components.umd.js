@@ -1,75 +1,39 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('ui-components/data-grid'), require('ui-components/form-components'), require('ui-components/navigation'), require('ui-components/split-container')) :
 	typeof define === 'function' && define.amd ? define('ui-components', ['exports', 'ui-components/data-grid', 'ui-components/form-components', 'ui-components/navigation', 'ui-components/split-container'], factory) :
-	(global = global || self, factory(global['ui-components'] = {}, global['ui-components']['data-grid'], global['ui-components']['form-components'], global['ui-components'].navigation, global['ui-components']['split-container']));
-}(this, (function (exports, dataGrid, formComponents, navigation, splitContainer) { 'use strict';
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["ui-components"] = {}, global["ui-components"]["data-grid"], global["ui-components"]["form-components"], global["ui-components"].navigation, global["ui-components"]["split-container"]));
+})(this, (function (exports, dataGrid, formComponents, navigation, splitContainer) { 'use strict';
 
 	/**
-	 * @fileoverview added by tsickle
-	 * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+	 * Generated bundle index. Do not edit.
 	 */
 
-	/**
-	 * @fileoverview added by tsickle
-	 * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-	 */
-
-	Object.defineProperty(exports, 'DataGridComponent', {
-		enumerable: true,
-		get: function () {
-			return dataGrid.DataGridComponent;
-		}
+	Object.keys(dataGrid).forEach(function (k) {
+		if (k !== 'default' && !exports.hasOwnProperty(k)) Object.defineProperty(exports, k, {
+			enumerable: true,
+			get: function () { return dataGrid[k]; }
+		});
 	});
-	Object.defineProperty(exports, 'DataGridModule', {
-		enumerable: true,
-		get: function () {
-			return dataGrid.DataGridModule;
-		}
+	Object.keys(formComponents).forEach(function (k) {
+		if (k !== 'default' && !exports.hasOwnProperty(k)) Object.defineProperty(exports, k, {
+			enumerable: true,
+			get: function () { return formComponents[k]; }
+		});
 	});
-	Object.defineProperty(exports, 'ChecklistComponent', {
-		enumerable: true,
-		get: function () {
-			return formComponents.ChecklistComponent;
-		}
+	Object.keys(navigation).forEach(function (k) {
+		if (k !== 'default' && !exports.hasOwnProperty(k)) Object.defineProperty(exports, k, {
+			enumerable: true,
+			get: function () { return navigation[k]; }
+		});
 	});
-	Object.defineProperty(exports, 'DropdownComponent', {
-		enumerable: true,
-		get: function () {
-			return formComponents.DropdownComponent;
-		}
-	});
-	Object.defineProperty(exports, 'FormComponentsModule', {
-		enumerable: true,
-		get: function () {
-			return formComponents.FormComponentsModule;
-		}
-	});
-	Object.defineProperty(exports, 'NavBarComponent', {
-		enumerable: true,
-		get: function () {
-			return navigation.NavBarComponent;
-		}
-	});
-	Object.defineProperty(exports, 'NavigationModule', {
-		enumerable: true,
-		get: function () {
-			return navigation.NavigationModule;
-		}
-	});
-	Object.defineProperty(exports, 'SplitContainerComponent', {
-		enumerable: true,
-		get: function () {
-			return splitContainer.SplitContainerComponent;
-		}
-	});
-	Object.defineProperty(exports, 'SplitContainerModule', {
-		enumerable: true,
-		get: function () {
-			return splitContainer.SplitContainerModule;
-		}
+	Object.keys(splitContainer).forEach(function (k) {
+		if (k !== 'default' && !exports.hasOwnProperty(k)) Object.defineProperty(exports, k, {
+			enumerable: true,
+			get: function () { return splitContainer[k]; }
+		});
 	});
 
 	Object.defineProperty(exports, '__esModule', { value: true });
 
-})));
+}));
 //# sourceMappingURL=ui-components.umd.js.map
